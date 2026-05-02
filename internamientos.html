@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Internamientos</title>
+</head>
+<body>
+
+<h2>Internamientos Realizados</h2>
+
+<link rel="stylesheet" href="styles.css">
+
+<div class="container">
+  <h2>Internamientos</h2>
+
+  <input type="date" id="fecha">
+  <input type="text" id="centro" placeholder="Centro Médico">
+  <input type="text" id="diagnostico" placeholder="Diagnóstico">
+
+  <button onclick="agregarInternamiento()">Agregar</button>
+
+  <ul id="lista"></ul>
+
+  <button onclick="siguiente()">Siguiente</button>
+</div>
+
+<script src="internamientos.js"></script>
+
+</body>
+</html>

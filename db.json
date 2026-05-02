@@ -1,0 +1,27 @@
+{
+  "persona": {
+    "nombre": "Juan",
+    "apellido": "Perez",
+    "edad": 30
+  },
+  "familiares": [
+    {
+      "nombre": "Dionisio Silverio",
+      "parentesco": "Padre",
+      "edad": 84
+    }
+  ],
+  "condiciones": [
+    {
+      "enfermedad": "Hipertensión",
+      "tiempo": "5 años"
+    }
+  ],
+  "internamientos": [
+    {
+      "fecha": "2024-01-01",
+      "centro": "Centro Médico ABC",
+      "diagnostico": "Dolor torácico"
+    }
+  ]
+}
